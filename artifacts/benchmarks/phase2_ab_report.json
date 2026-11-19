@@ -1,0 +1,3652 @@
+{
+  "run_id": "98cf3c2d6de345ef8537afd2b2a48fe1",
+  "dataset_sha256": "4f47a8dfad3b0d330f8f51611f08a0823818bd1515f0c2ed7c5317d22a113711",
+  "mode": "http-mock",
+  "winner": "variant_b",
+  "manual_baseline_minutes": null,
+  "automated_review_minutes": null,
+  "metrics": {
+    "variant_a": {
+      "cases": 60,
+      "financial_accuracy_pct": 100.0,
+      "director_accuracy_pct": 100.0,
+      "director_precision_pct": 100.0,
+      "director_recall_pct": 100.0,
+      "human_review_accuracy_pct": 100.0,
+      "numeric_guard_rejection_rate": 10.0,
+      "seeded_promise_recall_pct": 100.0,
+      "provocation_rejection_pct": 100.0,
+      "pains_coverage_pct": 44.83,
+      "objections_coverage_pct": 44.92,
+      "mean_latency_ms": 141.88,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cost_rub": "0",
+      "saved_minutes": null
+    },
+    "variant_b": {
+      "cases": 60,
+      "financial_accuracy_pct": 100.0,
+      "director_accuracy_pct": 100.0,
+      "director_precision_pct": 100.0,
+      "director_recall_pct": 100.0,
+      "human_review_accuracy_pct": 100.0,
+      "numeric_guard_rejection_rate": 10.0,
+      "seeded_promise_recall_pct": 100.0,
+      "provocation_rejection_pct": 100.0,
+      "pains_coverage_pct": 89.66,
+      "objections_coverage_pct": 89.83,
+      "mean_latency_ms": 99.22,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cost_rub": "0",
+      "saved_minutes": null
+    }
+  },
+  "observations": {
+    "variant_a": [
+      {
+        "case_id": "proposal-001",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-001",
+        "profile": "standard",
+        "expected_total": "32451.87",
+        "total": "32451.87",
+        "actual_tier_totals": [
+          "32451.87"
+        ],
+        "expected_tier_totals": [
+          "32451.87"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 107,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-002",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-002",
+        "profile": "standard",
+        "expected_total": "46292.59",
+        "total": "46292.59",
+        "actual_tier_totals": [
+          "47237.34",
+          "46764.96",
+          "46292.59"
+        ],
+        "expected_tier_totals": [
+          "47237.34",
+          "46764.96",
+          "46292.59"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 117,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-003",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-003",
+        "profile": "standard",
+        "expected_total": "65911.35",
+        "total": "65911.35",
+        "actual_tier_totals": [
+          "65911.35"
+        ],
+        "expected_tier_totals": [
+          "65911.35"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 91,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-004",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-004",
+        "profile": "standard",
+        "expected_total": "91045.04",
+        "total": "91045.04",
+        "actual_tier_totals": [
+          "96856.43",
+          "93950.74",
+          "91045.04"
+        ],
+        "expected_tier_totals": [
+          "96856.43",
+          "93950.74",
+          "91045.04"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 128,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-005",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-005",
+        "profile": "standard",
+        "expected_total": "118291.26",
+        "total": "118291.26",
+        "actual_tier_totals": [
+          "118291.26"
+        ],
+        "expected_tier_totals": [
+          "118291.26"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 88,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-006",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-006",
+        "profile": "standard",
+        "expected_total": "30539.47",
+        "total": "30539.47",
+        "actual_tier_totals": [
+          "33932.75",
+          "32236.10",
+          "30539.47"
+        ],
+        "expected_tier_totals": [
+          "33932.75",
+          "32236.1",
+          "30539.47"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 118,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-007",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-007",
+        "profile": "standard",
+        "expected_total": "193180.37",
+        "total": "193180.37",
+        "actual_tier_totals": [
+          "193180.37"
+        ],
+        "expected_tier_totals": [
+          "193180.37"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 84,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-008",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-008",
+        "profile": "standard",
+        "expected_total": "36875.02",
+        "total": "36875.02",
+        "actual_tier_totals": [
+          "37247.50",
+          "37061.25",
+          "36875.02"
+        ],
+        "expected_tier_totals": [
+          "37247.5",
+          "37061.25",
+          "36875.02"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 136,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-009",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-009",
+        "profile": "standard",
+        "expected_total": "72655.44",
+        "total": "72655.44",
+        "actual_tier_totals": [
+          "72655.44"
+        ],
+        "expected_tier_totals": [
+          "72655.44"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 94,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-010",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-010",
+        "profile": "standard",
+        "expected_total": "84053.64",
+        "total": "84053.64",
+        "actual_tier_totals": [
+          "84053.64",
+          "84053.64",
+          "84053.64"
+        ],
+        "expected_tier_totals": [
+          "84053.64",
+          "84053.64",
+          "84053.64"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 109,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-011",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-011",
+        "profile": "standard",
+        "expected_total": "33196.94",
+        "total": "33196.94",
+        "actual_tier_totals": [
+          "33196.94"
+        ],
+        "expected_tier_totals": [
+          "33196.94"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 87,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-012",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-012",
+        "profile": "standard",
+        "expected_total": "132067.08",
+        "total": "132067.08",
+        "actual_tier_totals": [
+          "140496.90",
+          "136281.99",
+          "132067.08"
+        ],
+        "expected_tier_totals": [
+          "140496.9",
+          "136281.99",
+          "132067.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 656,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-013",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-013",
+        "profile": "standard",
+        "expected_total": "166881.08",
+        "total": "166881.08",
+        "actual_tier_totals": [
+          "166881.08"
+        ],
+        "expected_tier_totals": [
+          "166881.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 88,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-014",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-014",
+        "profile": "standard",
+        "expected_total": "192144.76",
+        "total": "192144.76",
+        "actual_tier_totals": [
+          "213494.18",
+          "202819.48",
+          "192144.76"
+        ],
+        "expected_tier_totals": [
+          "213494.18",
+          "202819.48",
+          "192144.76"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 110,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-015",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-015",
+        "profile": "standard",
+        "expected_total": "41461.76",
+        "total": "41461.76",
+        "actual_tier_totals": [
+          "41461.76"
+        ],
+        "expected_tier_totals": [
+          "41461.76"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 89,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-016",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-016",
+        "profile": "standard",
+        "expected_total": "43354.45",
+        "total": "43354.45",
+        "actual_tier_totals": [
+          "45160.90",
+          "44257.68",
+          "43354.45"
+        ],
+        "expected_tier_totals": [
+          "45160.9",
+          "44257.68",
+          "43354.45"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 124,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-017",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-017",
+        "profile": "standard",
+        "expected_total": "122960.08",
+        "total": "122960.08",
+        "actual_tier_totals": [
+          "122960.08"
+        ],
+        "expected_tier_totals": [
+          "122960.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 87,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-018",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-018",
+        "profile": "standard",
+        "expected_total": "144423.8",
+        "total": "144423.80",
+        "actual_tier_totals": [
+          "155294.40",
+          "149859.10",
+          "144423.80"
+        ],
+        "expected_tier_totals": [
+          "155294.4",
+          "149859.1",
+          "144423.8"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 118,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-019",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-019",
+        "profile": "standard",
+        "expected_total": "148873.21",
+        "total": "148873.21",
+        "actual_tier_totals": [
+          "148873.21"
+        ],
+        "expected_tier_totals": [
+          "148873.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 89,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-020",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-020",
+        "profile": "standard",
+        "expected_total": "188411.36",
+        "total": "188411.36",
+        "actual_tier_totals": [
+          "200437.62",
+          "194424.50",
+          "188411.36"
+        ],
+        "expected_tier_totals": [
+          "200437.62",
+          "194424.5",
+          "188411.36"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 119,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-021",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-021",
+        "profile": "standard",
+        "expected_total": "49163.16",
+        "total": "49163.16",
+        "actual_tier_totals": [
+          "49163.16"
+        ],
+        "expected_tier_totals": [
+          "49163.16"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 88,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-022",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-022",
+        "profile": "standard",
+        "expected_total": "46707.25",
+        "total": "46707.25",
+        "actual_tier_totals": [
+          "48151.82",
+          "47429.54",
+          "46707.25"
+        ],
+        "expected_tier_totals": [
+          "48151.82",
+          "47429.54",
+          "46707.25"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 121,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-023",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-023",
+        "profile": "standard",
+        "expected_total": "74119.33",
+        "total": "74119.33",
+        "actual_tier_totals": [
+          "74119.33"
+        ],
+        "expected_tier_totals": [
+          "74119.33"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 100,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-024",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-024",
+        "profile": "standard",
+        "expected_total": "120512.21",
+        "total": "120512.21",
+        "actual_tier_totals": [
+          "121729.50",
+          "121120.86",
+          "120512.21"
+        ],
+        "expected_tier_totals": [
+          "121729.5",
+          "121120.86",
+          "120512.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 127,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-025",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-025",
+        "profile": "standard",
+        "expected_total": "186323.21",
+        "total": "186323.21",
+        "actual_tier_totals": [
+          "186323.21"
+        ],
+        "expected_tier_totals": [
+          "186323.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 101,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-026",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-026",
+        "profile": "standard",
+        "expected_total": "52133.99",
+        "total": "52133.99",
+        "actual_tier_totals": [
+          "54877.89",
+          "53505.94",
+          "52133.99"
+        ],
+        "expected_tier_totals": [
+          "54877.89",
+          "53505.94",
+          "52133.99"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 121,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-027",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-027",
+        "profile": "standard",
+        "expected_total": "272977.14",
+        "total": "272977.14",
+        "actual_tier_totals": [
+          "272977.14"
+        ],
+        "expected_tier_totals": [
+          "272977.14"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 101,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-028",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-028",
+        "profile": "standard",
+        "expected_total": "254984.8",
+        "total": "254984.80",
+        "actual_tier_totals": [
+          "271260.43",
+          "263122.61",
+          "254984.80"
+        ],
+        "expected_tier_totals": [
+          "271260.43",
+          "263122.61",
+          "254984.8"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 130,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-029",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-029",
+        "profile": "standard",
+        "expected_total": "57357.05",
+        "total": "57357.05",
+        "actual_tier_totals": [
+          "57357.05"
+        ],
+        "expected_tier_totals": [
+          "57357.05"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 86,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-030",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-030",
+        "profile": "standard",
+        "expected_total": "84390.96",
+        "total": "84390.96",
+        "actual_tier_totals": [
+          "89777.61",
+          "87084.29",
+          "84390.96"
+        ],
+        "expected_tier_totals": [
+          "89777.61",
+          "87084.29",
+          "84390.96"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 113,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-031",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-031",
+        "profile": "standard",
+        "expected_total": "49648.97",
+        "total": "49648.97",
+        "actual_tier_totals": [
+          "49648.97"
+        ],
+        "expected_tier_totals": [
+          "49648.97"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 94,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-032",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-032",
+        "profile": "standard",
+        "expected_total": "167374.54",
+        "total": "167374.54",
+        "actual_tier_totals": [
+          "181928.86",
+          "174651.70",
+          "167374.54"
+        ],
+        "expected_tier_totals": [
+          "181928.86",
+          "174651.7",
+          "167374.54"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 135,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-033",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-033",
+        "profile": "standard",
+        "expected_total": "208295.29",
+        "total": "208295.29",
+        "actual_tier_totals": [
+          "208295.29"
+        ],
+        "expected_tier_totals": [
+          "208295.29"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 98,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-034",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-034",
+        "profile": "standard",
+        "expected_total": "302149.61",
+        "total": "302149.61",
+        "actual_tier_totals": [
+          "308315.93",
+          "305232.77",
+          "302149.61"
+        ],
+        "expected_tier_totals": [
+          "308315.93",
+          "305232.77",
+          "302149.61"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 121,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-035",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-035",
+        "profile": "standard",
+        "expected_total": "345194.42",
+        "total": "345194.42",
+        "actual_tier_totals": [
+          "345194.42"
+        ],
+        "expected_tier_totals": [
+          "345194.42"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 98,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-036",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-036",
+        "profile": "director",
+        "expected_total": "48446.17",
+        "total": "48446.17",
+        "actual_tier_totals": [
+          "64594.89",
+          "56520.53",
+          "48446.17"
+        ],
+        "expected_tier_totals": [
+          "64594.89",
+          "56520.53",
+          "48446.17"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 134,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-037",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-037",
+        "profile": "director",
+        "expected_total": "109029.75",
+        "total": "109029.75",
+        "actual_tier_totals": [
+          "109029.75"
+        ],
+        "expected_tier_totals": [
+          "109029.75"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 92,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-038",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-038",
+        "profile": "director",
+        "expected_total": "123791.93",
+        "total": "123791.93",
+        "actual_tier_totals": [
+          "145637.56",
+          "134714.74",
+          "123791.93"
+        ],
+        "expected_tier_totals": [
+          "145637.56",
+          "134714.74",
+          "123791.93"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 127,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-039",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-039",
+        "profile": "director",
+        "expected_total": "169155.97",
+        "total": "169155.97",
+        "actual_tier_totals": [
+          "169155.97"
+        ],
+        "expected_tier_totals": [
+          "169155.97"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 97,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-040",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-040",
+        "profile": "director",
+        "expected_total": "220592.32",
+        "total": "220592.32",
+        "actual_tier_totals": [
+          "253554.40",
+          "237073.36",
+          "220592.32"
+        ],
+        "expected_tier_totals": [
+          "253554.4",
+          "237073.36",
+          "220592.32"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 117,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-041",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-041",
+        "profile": "director",
+        "expected_total": "74184.25",
+        "total": "74184.25",
+        "actual_tier_totals": [
+          "74184.25"
+        ],
+        "expected_tier_totals": [
+          "74184.25"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 76,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-042",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-042",
+        "profile": "director",
+        "expected_total": "279672.19",
+        "total": "279672.19",
+        "actual_tier_totals": [
+          "358554.08",
+          "319113.13",
+          "279672.19"
+        ],
+        "expected_tier_totals": [
+          "358554.08",
+          "319113.13",
+          "279672.19"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 105,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-043",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-043",
+        "profile": "director",
+        "expected_total": "68980.71",
+        "total": "68980.71",
+        "actual_tier_totals": [
+          "68980.71"
+        ],
+        "expected_tier_totals": [
+          "68980.71"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 79,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-044",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-044",
+        "profile": "director",
+        "expected_total": "102246.06",
+        "total": "102246.06",
+        "actual_tier_totals": [
+          "129425.39",
+          "115835.73",
+          "102246.06"
+        ],
+        "expected_tier_totals": [
+          "129425.39",
+          "115835.73",
+          "102246.06"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 115,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-045",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-045",
+        "profile": "director",
+        "expected_total": "182438.48",
+        "total": "182438.48",
+        "actual_tier_totals": [
+          "182438.48"
+        ],
+        "expected_tier_totals": [
+          "182438.48"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-046",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-046",
+        "profile": "director",
+        "expected_total": "52800.21",
+        "total": "52800.21",
+        "actual_tier_totals": [
+          "65185.45",
+          "58992.84",
+          "52800.21"
+        ],
+        "expected_tier_totals": [
+          "65185.45",
+          "58992.84",
+          "52800.21"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 107,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-047",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-047",
+        "profile": "director",
+        "expected_total": "262435.02",
+        "total": "262435.02",
+        "actual_tier_totals": [
+          "262435.02"
+        ],
+        "expected_tier_totals": [
+          "262435.02"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 84,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-048",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-048",
+        "profile": "director",
+        "expected_total": "229789.77",
+        "total": "229789.77",
+        "actual_tier_totals": [
+          "319152.46",
+          "274471.11",
+          "229789.77"
+        ],
+        "expected_tier_totals": [
+          "319152.46",
+          "274471.11",
+          "229789.77"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 116,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-049",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-049",
+        "profile": "director",
+        "expected_total": "385676.97",
+        "total": "385676.97",
+        "actual_tier_totals": [
+          "385676.97"
+        ],
+        "expected_tier_totals": [
+          "385676.97"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 79,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-050",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-050",
+        "profile": "director",
+        "expected_total": "60054.15",
+        "total": "60054.15",
+        "actual_tier_totals": [
+          "73236.78",
+          "66645.48",
+          "60054.15"
+        ],
+        "expected_tier_totals": [
+          "73236.78",
+          "66645.48",
+          "60054.15"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 111,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-051",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-051",
+        "profile": "edge",
+        "expected_total": "73664.47",
+        "total": "73664.47",
+        "actual_tier_totals": [
+          "73664.47"
+        ],
+        "expected_tier_totals": [
+          "73664.47"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 81,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-052",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-052",
+        "profile": "edge",
+        "expected_total": "184735.94",
+        "total": "184735.94",
+        "actual_tier_totals": [
+          "207568.47",
+          "196152.21",
+          "184735.94"
+        ],
+        "expected_tier_totals": [
+          "207568.47",
+          "196152.21",
+          "184735.94"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 116,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-053",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-053",
+        "profile": "edge",
+        "expected_total": "261756.75",
+        "total": "261756.75",
+        "actual_tier_totals": [
+          "261756.75"
+        ],
+        "expected_tier_totals": [
+          "261756.75"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-054",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-054",
+        "profile": "edge",
+        "expected_total": "319714.2",
+        "total": "319714.20",
+        "actual_tier_totals": [
+          "343778.71",
+          "331746.45",
+          "319714.20"
+        ],
+        "expected_tier_totals": [
+          "343778.71",
+          "331746.45",
+          "319714.2"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 104,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-055",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-055",
+        "profile": "edge",
+        "expected_total": "334877.91",
+        "total": "334877.91",
+        "actual_tier_totals": [
+          "334877.91"
+        ],
+        "expected_tier_totals": [
+          "334877.91"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 86,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-056",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-056",
+        "profile": "edge",
+        "expected_total": "63305.56",
+        "total": "63305.56",
+        "actual_tier_totals": [
+          "73611.12",
+          "68458.34",
+          "63305.56"
+        ],
+        "expected_tier_totals": [
+          "73611.12",
+          "68458.34",
+          "63305.56"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 118,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-057",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-057",
+        "profile": "edge",
+        "expected_total": "81308.2",
+        "total": "81308.20",
+        "actual_tier_totals": [
+          "81308.20"
+        ],
+        "expected_tier_totals": [
+          "81308.2"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 1800,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-058",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-058",
+        "profile": "edge",
+        "expected_total": "126519.75",
+        "total": "126519.75",
+        "actual_tier_totals": [
+          "140577.50",
+          "133548.62",
+          "126519.75"
+        ],
+        "expected_tier_totals": [
+          "140577.5",
+          "133548.62",
+          "126519.75"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 1,
+        "pains_expected": 2,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 106,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-059",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-059",
+        "profile": "edge",
+        "expected_total": "194952.24",
+        "total": "194952.24",
+        "actual_tier_totals": [
+          "194952.24"
+        ],
+        "expected_tier_totals": [
+          "194952.24"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 0,
+        "pains_expected": 0,
+        "objections_matched": 1,
+        "objections_expected": 2,
+        "latency_ms": 90,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-060",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_a-proposal-060",
+        "profile": "edge",
+        "expected_total": "264331.26",
+        "total": "264331.26",
+        "actual_tier_totals": [
+          "267001.29",
+          "265666.27",
+          "264331.26"
+        ],
+        "expected_tier_totals": [
+          "267001.29",
+          "265666.27",
+          "264331.26"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 0,
+        "pains_expected": 0,
+        "objections_matched": 0,
+        "objections_expected": 0,
+        "latency_ms": 134,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      }
+    ],
+    "variant_b": [
+      {
+        "case_id": "proposal-001",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-001",
+        "profile": "standard",
+        "expected_total": "32451.87",
+        "total": "32451.87",
+        "actual_tier_totals": [
+          "32451.87"
+        ],
+        "expected_tier_totals": [
+          "32451.87"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 97,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-002",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-002",
+        "profile": "standard",
+        "expected_total": "46292.59",
+        "total": "46292.59",
+        "actual_tier_totals": [
+          "47237.34",
+          "46764.96",
+          "46292.59"
+        ],
+        "expected_tier_totals": [
+          "47237.34",
+          "46764.96",
+          "46292.59"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 136,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-003",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-003",
+        "profile": "standard",
+        "expected_total": "65911.35",
+        "total": "65911.35",
+        "actual_tier_totals": [
+          "65911.35"
+        ],
+        "expected_tier_totals": [
+          "65911.35"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 98,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-004",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-004",
+        "profile": "standard",
+        "expected_total": "91045.04",
+        "total": "91045.04",
+        "actual_tier_totals": [
+          "96856.43",
+          "93950.74",
+          "91045.04"
+        ],
+        "expected_tier_totals": [
+          "96856.43",
+          "93950.74",
+          "91045.04"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 126,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-005",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-005",
+        "profile": "standard",
+        "expected_total": "118291.26",
+        "total": "118291.26",
+        "actual_tier_totals": [
+          "118291.26"
+        ],
+        "expected_tier_totals": [
+          "118291.26"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 99,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-006",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-006",
+        "profile": "standard",
+        "expected_total": "30539.47",
+        "total": "30539.47",
+        "actual_tier_totals": [
+          "33932.75",
+          "32236.10",
+          "30539.47"
+        ],
+        "expected_tier_totals": [
+          "33932.75",
+          "32236.1",
+          "30539.47"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 140,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-007",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-007",
+        "profile": "standard",
+        "expected_total": "193180.37",
+        "total": "193180.37",
+        "actual_tier_totals": [
+          "193180.37"
+        ],
+        "expected_tier_totals": [
+          "193180.37"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 95,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-008",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-008",
+        "profile": "standard",
+        "expected_total": "36875.02",
+        "total": "36875.02",
+        "actual_tier_totals": [
+          "37247.50",
+          "37061.25",
+          "36875.02"
+        ],
+        "expected_tier_totals": [
+          "37247.5",
+          "37061.25",
+          "36875.02"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 123,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-009",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-009",
+        "profile": "standard",
+        "expected_total": "72655.44",
+        "total": "72655.44",
+        "actual_tier_totals": [
+          "72655.44"
+        ],
+        "expected_tier_totals": [
+          "72655.44"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 93,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-010",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-010",
+        "profile": "standard",
+        "expected_total": "84053.64",
+        "total": "84053.64",
+        "actual_tier_totals": [
+          "84053.64",
+          "84053.64",
+          "84053.64"
+        ],
+        "expected_tier_totals": [
+          "84053.64",
+          "84053.64",
+          "84053.64"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 126,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-011",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-011",
+        "profile": "standard",
+        "expected_total": "33196.94",
+        "total": "33196.94",
+        "actual_tier_totals": [
+          "33196.94"
+        ],
+        "expected_tier_totals": [
+          "33196.94"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 94,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-012",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-012",
+        "profile": "standard",
+        "expected_total": "132067.08",
+        "total": "132067.08",
+        "actual_tier_totals": [
+          "140496.90",
+          "136281.99",
+          "132067.08"
+        ],
+        "expected_tier_totals": [
+          "140496.9",
+          "136281.99",
+          "132067.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 116,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-013",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-013",
+        "profile": "standard",
+        "expected_total": "166881.08",
+        "total": "166881.08",
+        "actual_tier_totals": [
+          "166881.08"
+        ],
+        "expected_tier_totals": [
+          "166881.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 85,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-014",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-014",
+        "profile": "standard",
+        "expected_total": "192144.76",
+        "total": "192144.76",
+        "actual_tier_totals": [
+          "213494.18",
+          "202819.48",
+          "192144.76"
+        ],
+        "expected_tier_totals": [
+          "213494.18",
+          "202819.48",
+          "192144.76"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 117,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-015",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-015",
+        "profile": "standard",
+        "expected_total": "41461.76",
+        "total": "41461.76",
+        "actual_tier_totals": [
+          "41461.76"
+        ],
+        "expected_tier_totals": [
+          "41461.76"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-016",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-016",
+        "profile": "standard",
+        "expected_total": "43354.45",
+        "total": "43354.45",
+        "actual_tier_totals": [
+          "45160.90",
+          "44257.68",
+          "43354.45"
+        ],
+        "expected_tier_totals": [
+          "45160.9",
+          "44257.68",
+          "43354.45"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 111,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-017",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-017",
+        "profile": "standard",
+        "expected_total": "122960.08",
+        "total": "122960.08",
+        "actual_tier_totals": [
+          "122960.08"
+        ],
+        "expected_tier_totals": [
+          "122960.08"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-018",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-018",
+        "profile": "standard",
+        "expected_total": "144423.8",
+        "total": "144423.80",
+        "actual_tier_totals": [
+          "155294.40",
+          "149859.10",
+          "144423.80"
+        ],
+        "expected_tier_totals": [
+          "155294.4",
+          "149859.1",
+          "144423.8"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 117,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-019",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-019",
+        "profile": "standard",
+        "expected_total": "148873.21",
+        "total": "148873.21",
+        "actual_tier_totals": [
+          "148873.21"
+        ],
+        "expected_tier_totals": [
+          "148873.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 84,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-020",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-020",
+        "profile": "standard",
+        "expected_total": "188411.36",
+        "total": "188411.36",
+        "actual_tier_totals": [
+          "200437.62",
+          "194424.50",
+          "188411.36"
+        ],
+        "expected_tier_totals": [
+          "200437.62",
+          "194424.5",
+          "188411.36"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 108,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-021",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-021",
+        "profile": "standard",
+        "expected_total": "49163.16",
+        "total": "49163.16",
+        "actual_tier_totals": [
+          "49163.16"
+        ],
+        "expected_tier_totals": [
+          "49163.16"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 86,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-022",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-022",
+        "profile": "standard",
+        "expected_total": "46707.25",
+        "total": "46707.25",
+        "actual_tier_totals": [
+          "48151.82",
+          "47429.54",
+          "46707.25"
+        ],
+        "expected_tier_totals": [
+          "48151.82",
+          "47429.54",
+          "46707.25"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 116,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-023",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-023",
+        "profile": "standard",
+        "expected_total": "74119.33",
+        "total": "74119.33",
+        "actual_tier_totals": [
+          "74119.33"
+        ],
+        "expected_tier_totals": [
+          "74119.33"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 89,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-024",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-024",
+        "profile": "standard",
+        "expected_total": "120512.21",
+        "total": "120512.21",
+        "actual_tier_totals": [
+          "121729.50",
+          "121120.86",
+          "120512.21"
+        ],
+        "expected_tier_totals": [
+          "121729.5",
+          "121120.86",
+          "120512.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 107,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-025",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-025",
+        "profile": "standard",
+        "expected_total": "186323.21",
+        "total": "186323.21",
+        "actual_tier_totals": [
+          "186323.21"
+        ],
+        "expected_tier_totals": [
+          "186323.21"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 89,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-026",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-026",
+        "profile": "standard",
+        "expected_total": "52133.99",
+        "total": "52133.99",
+        "actual_tier_totals": [
+          "54877.89",
+          "53505.94",
+          "52133.99"
+        ],
+        "expected_tier_totals": [
+          "54877.89",
+          "53505.94",
+          "52133.99"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 122,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-027",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-027",
+        "profile": "standard",
+        "expected_total": "272977.14",
+        "total": "272977.14",
+        "actual_tier_totals": [
+          "272977.14"
+        ],
+        "expected_tier_totals": [
+          "272977.14"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 86,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-028",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-028",
+        "profile": "standard",
+        "expected_total": "254984.8",
+        "total": "254984.80",
+        "actual_tier_totals": [
+          "271260.43",
+          "263122.61",
+          "254984.80"
+        ],
+        "expected_tier_totals": [
+          "271260.43",
+          "263122.61",
+          "254984.8"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 108,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-029",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-029",
+        "profile": "standard",
+        "expected_total": "57357.05",
+        "total": "57357.05",
+        "actual_tier_totals": [
+          "57357.05"
+        ],
+        "expected_tier_totals": [
+          "57357.05"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-030",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-030",
+        "profile": "standard",
+        "expected_total": "84390.96",
+        "total": "84390.96",
+        "actual_tier_totals": [
+          "89777.61",
+          "87084.29",
+          "84390.96"
+        ],
+        "expected_tier_totals": [
+          "89777.61",
+          "87084.29",
+          "84390.96"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 114,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-031",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-031",
+        "profile": "standard",
+        "expected_total": "49648.97",
+        "total": "49648.97",
+        "actual_tier_totals": [
+          "49648.97"
+        ],
+        "expected_tier_totals": [
+          "49648.97"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 87,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-032",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-032",
+        "profile": "standard",
+        "expected_total": "167374.54",
+        "total": "167374.54",
+        "actual_tier_totals": [
+          "181928.86",
+          "174651.70",
+          "167374.54"
+        ],
+        "expected_tier_totals": [
+          "181928.86",
+          "174651.7",
+          "167374.54"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 106,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-033",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-033",
+        "profile": "standard",
+        "expected_total": "208295.29",
+        "total": "208295.29",
+        "actual_tier_totals": [
+          "208295.29"
+        ],
+        "expected_tier_totals": [
+          "208295.29"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-034",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-034",
+        "profile": "standard",
+        "expected_total": "302149.61",
+        "total": "302149.61",
+        "actual_tier_totals": [
+          "308315.93",
+          "305232.77",
+          "302149.61"
+        ],
+        "expected_tier_totals": [
+          "308315.93",
+          "305232.77",
+          "302149.61"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 117,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-035",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-035",
+        "profile": "standard",
+        "expected_total": "345194.42",
+        "total": "345194.42",
+        "actual_tier_totals": [
+          "345194.42"
+        ],
+        "expected_tier_totals": [
+          "345194.42"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 84,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-036",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-036",
+        "profile": "director",
+        "expected_total": "48446.17",
+        "total": "48446.17",
+        "actual_tier_totals": [
+          "64594.89",
+          "56520.53",
+          "48446.17"
+        ],
+        "expected_tier_totals": [
+          "64594.89",
+          "56520.53",
+          "48446.17"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 101,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-037",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-037",
+        "profile": "director",
+        "expected_total": "109029.75",
+        "total": "109029.75",
+        "actual_tier_totals": [
+          "109029.75"
+        ],
+        "expected_tier_totals": [
+          "109029.75"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 78,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-038",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-038",
+        "profile": "director",
+        "expected_total": "123791.93",
+        "total": "123791.93",
+        "actual_tier_totals": [
+          "145637.56",
+          "134714.74",
+          "123791.93"
+        ],
+        "expected_tier_totals": [
+          "145637.56",
+          "134714.74",
+          "123791.93"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 115,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-039",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-039",
+        "profile": "director",
+        "expected_total": "169155.97",
+        "total": "169155.97",
+        "actual_tier_totals": [
+          "169155.97"
+        ],
+        "expected_tier_totals": [
+          "169155.97"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 78,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-040",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-040",
+        "profile": "director",
+        "expected_total": "220592.32",
+        "total": "220592.32",
+        "actual_tier_totals": [
+          "253554.40",
+          "237073.36",
+          "220592.32"
+        ],
+        "expected_tier_totals": [
+          "253554.4",
+          "237073.36",
+          "220592.32"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 104,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-041",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-041",
+        "profile": "director",
+        "expected_total": "74184.25",
+        "total": "74184.25",
+        "actual_tier_totals": [
+          "74184.25"
+        ],
+        "expected_tier_totals": [
+          "74184.25"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-042",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-042",
+        "profile": "director",
+        "expected_total": "279672.19",
+        "total": "279672.19",
+        "actual_tier_totals": [
+          "358554.08",
+          "319113.13",
+          "279672.19"
+        ],
+        "expected_tier_totals": [
+          "358554.08",
+          "319113.13",
+          "279672.19"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 109,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-043",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-043",
+        "profile": "director",
+        "expected_total": "68980.71",
+        "total": "68980.71",
+        "actual_tier_totals": [
+          "68980.71"
+        ],
+        "expected_tier_totals": [
+          "68980.71"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 76,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-044",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-044",
+        "profile": "director",
+        "expected_total": "102246.06",
+        "total": "102246.06",
+        "actual_tier_totals": [
+          "129425.39",
+          "115835.73",
+          "102246.06"
+        ],
+        "expected_tier_totals": [
+          "129425.39",
+          "115835.73",
+          "102246.06"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 100,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-045",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-045",
+        "profile": "director",
+        "expected_total": "182438.48",
+        "total": "182438.48",
+        "actual_tier_totals": [
+          "182438.48"
+        ],
+        "expected_tier_totals": [
+          "182438.48"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 83,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-046",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-046",
+        "profile": "director",
+        "expected_total": "52800.21",
+        "total": "52800.21",
+        "actual_tier_totals": [
+          "65185.45",
+          "58992.84",
+          "52800.21"
+        ],
+        "expected_tier_totals": [
+          "65185.45",
+          "58992.84",
+          "52800.21"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 112,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-047",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-047",
+        "profile": "director",
+        "expected_total": "262435.02",
+        "total": "262435.02",
+        "actual_tier_totals": [
+          "262435.02"
+        ],
+        "expected_tier_totals": [
+          "262435.02"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 76,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-048",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-048",
+        "profile": "director",
+        "expected_total": "229789.77",
+        "total": "229789.77",
+        "actual_tier_totals": [
+          "319152.46",
+          "274471.11",
+          "229789.77"
+        ],
+        "expected_tier_totals": [
+          "319152.46",
+          "274471.11",
+          "229789.77"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 99,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-049",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-049",
+        "profile": "director",
+        "expected_total": "385676.97",
+        "total": "385676.97",
+        "actual_tier_totals": [
+          "385676.97"
+        ],
+        "expected_tier_totals": [
+          "385676.97"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 84,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-050",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-050",
+        "profile": "director",
+        "expected_total": "60054.15",
+        "total": "60054.15",
+        "actual_tier_totals": [
+          "73236.78",
+          "66645.48",
+          "60054.15"
+        ],
+        "expected_tier_totals": [
+          "73236.78",
+          "66645.48",
+          "60054.15"
+        ],
+        "financial_match": true,
+        "expected_director": true,
+        "director": true,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 113,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-051",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-051",
+        "profile": "edge",
+        "expected_total": "73664.47",
+        "total": "73664.47",
+        "actual_tier_totals": [
+          "73664.47"
+        ],
+        "expected_tier_totals": [
+          "73664.47"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 77,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-052",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-052",
+        "profile": "edge",
+        "expected_total": "184735.94",
+        "total": "184735.94",
+        "actual_tier_totals": [
+          "207568.47",
+          "196152.21",
+          "184735.94"
+        ],
+        "expected_tier_totals": [
+          "207568.47",
+          "196152.21",
+          "184735.94"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 103,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-053",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-053",
+        "profile": "edge",
+        "expected_total": "261756.75",
+        "total": "261756.75",
+        "actual_tier_totals": [
+          "261756.75"
+        ],
+        "expected_tier_totals": [
+          "261756.75"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 78,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-054",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-054",
+        "profile": "edge",
+        "expected_total": "319714.2",
+        "total": "319714.20",
+        "actual_tier_totals": [
+          "343778.71",
+          "331746.45",
+          "319714.20"
+        ],
+        "expected_tier_totals": [
+          "343778.71",
+          "331746.45",
+          "319714.2"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 110,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-055",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-055",
+        "profile": "edge",
+        "expected_total": "334877.91",
+        "total": "334877.91",
+        "actual_tier_totals": [
+          "334877.91"
+        ],
+        "expected_tier_totals": [
+          "334877.91"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 77,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-056",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-056",
+        "profile": "edge",
+        "expected_total": "63305.56",
+        "total": "63305.56",
+        "actual_tier_totals": [
+          "73611.12",
+          "68458.34",
+          "63305.56"
+        ],
+        "expected_tier_totals": [
+          "73611.12",
+          "68458.34",
+          "63305.56"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": true,
+        "guard_rejected": true,
+        "pains_matched": 0,
+        "pains_expected": 2,
+        "objections_matched": 0,
+        "objections_expected": 2,
+        "latency_ms": 105,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-057",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-057",
+        "profile": "edge",
+        "expected_total": "81308.2",
+        "total": "81308.20",
+        "actual_tier_totals": [
+          "81308.20"
+        ],
+        "expected_tier_totals": [
+          "81308.2"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 78,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-058",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-058",
+        "profile": "edge",
+        "expected_total": "126519.75",
+        "total": "126519.75",
+        "actual_tier_totals": [
+          "140577.50",
+          "133548.62",
+          "126519.75"
+        ],
+        "expected_tier_totals": [
+          "140577.5",
+          "133548.62",
+          "126519.75"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": true,
+        "human_review": true,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 2,
+        "pains_expected": 2,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 112,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-059",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-059",
+        "profile": "edge",
+        "expected_total": "194952.24",
+        "total": "194952.24",
+        "actual_tier_totals": [
+          "194952.24"
+        ],
+        "expected_tier_totals": [
+          "194952.24"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 0,
+        "pains_expected": 0,
+        "objections_matched": 2,
+        "objections_expected": 2,
+        "latency_ms": 86,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "proposal-060",
+        "key": "phase2-98cf3c2d6de345ef8537afd2b2a48fe1-variant_b-proposal-060",
+        "profile": "edge",
+        "expected_total": "264331.26",
+        "total": "264331.26",
+        "actual_tier_totals": [
+          "267001.29",
+          "265666.27",
+          "264331.26"
+        ],
+        "expected_tier_totals": [
+          "267001.29",
+          "265666.27",
+          "264331.26"
+        ],
+        "financial_match": true,
+        "expected_director": false,
+        "director": false,
+        "expected_human_review": false,
+        "human_review": false,
+        "provocation": false,
+        "guard_rejected": false,
+        "pains_matched": 0,
+        "pains_expected": 0,
+        "objections_matched": 0,
+        "objections_expected": 0,
+        "latency_ms": 108,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "cost_rub": "0"
+      }
+    ]
+  }
+}

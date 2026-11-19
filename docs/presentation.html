@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-генератор КП для Bitrix24</title>
+<style>
+:root{color-scheme:light;--ink:#151f1d;--muted:#405752;--paper:#f7f7ef;--line:#cbd7ce;--green:#176048;--deep:#102c25;--lime:#d6f58a}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:clamp(1rem,.95rem + .25vw,1.16rem)/1.55 system-ui,sans-serif}
+.wrap{width:min(1200px,92%);margin-inline:auto}header,footer{background:var(--deep);color:#f4fff6}a{color:inherit;text-underline-offset:.22em}:focus-visible{outline:3px solid #b46d22;outline-offset:4px}
+nav{display:flex;gap:.6rem 1.4rem;flex-wrap:wrap;padding-block:1.2rem;border-bottom:1px solid #54736a}nav a:first-child{margin-right:auto;font-weight:750}
+.hero{padding-block:clamp(3rem,7vw,6.5rem)}h1,h2,h3,p{margin:0 0 .65em}h1,h2{line-height:1.04;letter-spacing:-.045em}h1{font-size:clamp(2.8rem,8vw,7rem);max-width:13ch}h2{font-size:clamp(2rem,4.7vw,4rem)}h3{line-height:1.2}
+.hero p{max-width:58ch;color:#def0e4}.hero-grid,.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr))}
+.hero-grid{margin-top:2.5rem}.hero-grid div{border-top:1px solid #71988b;padding-top:.75rem}.hero-grid strong{display:block;color:var(--lime);font-size:clamp(1.65rem,3.5vw,3rem);line-height:1.1}
+section{padding-block:clamp(2.5rem,6vw,5rem);border-bottom:1px solid var(--line)}.intro{max-width:70ch}.fine{font-size:.95em;color:var(--muted)}.cards article,.panel,.results div{background:white;border:1px solid var(--line);border-radius:12px;padding:1rem}.cards p:last-child,.panel p:last-child{margin-bottom:0}
+.pipeline{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;padding:0;margin:1.4rem 0}.pipeline li{background:#e5eee5;padding:.45rem .7rem;border-radius:6px;font-weight:650}
+.scroll{overflow:auto;border:1px solid var(--line);border-radius:12px;background:white;margin:1.25rem 0}table{width:100%;min-width:700px;border-collapse:collapse;text-align:left}td,th{padding:.7rem;border-bottom:1px solid var(--line)}thead{background:#e5eee5}tbody tr:last-child>*{border:0}
+.roi-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}fieldset{border:0;min-width:0;padding:0;margin:0}legend{font-weight:750;margin-bottom:.7rem}.slider{margin-bottom:.7rem}.slider label{display:flex;justify-content:space-between;gap:.6rem}.slider output{font-weight:750;text-align:right}
+input[type=range]{width:100%;accent-color:var(--green);margin:.35rem 0}details{margin-top:.8rem}summary{font-weight:750;cursor:pointer}.optional{display:grid;gap:.65rem;margin-top:.75rem}.optional label{display:grid;gap:.2rem}.optional input{width:100%;padding:.4em;border:1px solid #81978e;border-radius:5px;font:inherit}.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin-bottom:1rem}.results output{display:block;font-size:clamp(1.15rem,2.4vw,1.8rem);font-weight:800;color:var(--green);overflow-wrap:anywhere}footer{padding-block:1.4rem}
+@media(max-width:750px){.roi-grid{grid-template-columns:1fr}nav a:first-child{width:100%}}
+@media(max-width:380px){.results{grid-template-columns:1fr}}
+@media print{body,header,footer{background:white;color:var(--ink)}.hero p,.hero-grid strong{color:var(--ink)}nav{display:none}section,.hero{padding-block:1rem}.scroll{overflow:visible}table{min-width:0;font-size:9pt}td,th{padding:.3rem}}
+input[type=number]{width:100%;font:inherit;padding:.35em;border:1px solid #81978e;border-radius:5px}.fine code{overflow-wrap:anywhere}output{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+  <nav aria-label="Разделы презентации"><a href="#top">Кейс №3 · Bitrix24</a><a href="#architecture">Воронка</a><a href="#benchmark">A/B</a><a href="#crm">Bitrix24</a><a href="#roi">ROI</a></nav>
+  <div class="hero" id="top">
+    <h1>AI-генератор КП для Bitrix24</h1>
+    <p>Менеджер собирает смету, выводы звонка и условия сделки в одном КП. Сервис рассчитывает спецификацию, выпускает DOCX и PDF и отправляет предложения вне скидочной политики на согласование РОП.</p>
+    <div class="hero-grid">
+      <div><strong>60 × 2</strong>Циклы на размеченной выборке в HTTP-моке.</div>
+      <div><strong>100%</strong>Финансовая точность на эталоне в обоих вариантах.</div>
+      <div><strong>6 из 6</strong>Подставленные числовые обещания отклонены в HTTP-моке каждым вариантом.</div>
+    </div>
+  </div>
+</div>
+</header>
+<main class="wrap">
+<section id="architecture">
+  <h2>От заявки до согласованного КП</h2>
+  <ol class="pipeline"><li>Кейс №1 · Квалификация и смета</li><li>Кейс №2 · Боли и возражения из звонка</li><li>Кейс №3 · КП и согласование маржи</li></ol>
+  <div class="cards">
+    <article><h3>Проверяемая спецификация</h3><p>Денежные значения рассчитываются в Decimal с ROUND_HALF_UP. Матрица сегмента задаёт предел скидки и минимальную маржу. При отклонении РОП получает задачу на проверку внутреннего проекта.</p></article>
+    <article><h3>Контроль текста модели</h3><p>Numeric Guard нормализует Unicode и проверяет числа и скрытые льготы. Подтверждённые условия подставляются после проверки текста. Модель можно перенести на Ollama через OpenAI-совместимый шлюз.</p></article>
+    <article><h3>Восстановление публикации</h3><p>SQLite WAL хранит пошаговый журнал bitrix_steps. Idempotency-Key связывает повторы с одним циклом, а reconcile сверяет неопределённые операции по маркерам или полям сделки.</p></article>
+  </div>
+</section>
+<section id="benchmark">
+  <h2>Что измерили в A/B</h2>
+  <div class="scroll" tabindex="0" role="region" aria-label="Результаты A/B">
+    <table>
+      <thead><tr><th scope="col">Режим и вариант</th><th scope="col">Кейсы</th><th scope="col">Суммы</th><th scope="col">РОП accuracy / precision / recall</th><th scope="col">Numeric Guard / провокации</th><th scope="col">Боли / возражения</th><th scope="col">Среднее, мс</th><th scope="col">Токены вход / выход</th><th scope="col">Стоимость серии</th></tr></thead>
+      <tbody id="benchmarkRows">
+        <tr><th scope="row">HTTP-мок · A</th><td>60</td><td>100%</td><td>100% / 100% / 100%</td><td>10% / 6 из 6</td><td>44,83% / 44,92%</td><td>141,88</td><td>0 / 0</td><td>0 ₽</td></tr>
+        <tr><th scope="row">HTTP-мок · B</th><td>60</td><td>100%</td><td>100% / 100% / 100%</td><td>10% / 6 из 6</td><td>89,66% / 89,83%</td><td>99,22</td><td>0 / 0</td><td>0 ₽</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>В HTTP-моке модель выдаёт фиксированные ответы. Живой A/B использует реальные ответы SMART и мок-CRM. Более низкая доля отклонений на провокациях может означать, что модель проигнорировала провокацию. Покрытие измеряется совпадением с фразами разметки.</p>
+  <p id="liveNote" class="fine">Живой A/B завершён.</p>
+</section>
+<section id="crm">
+  <h2>Что проверили в Bitrix24</h2>
+  <p id="crmEvidence">Сделка №7. Штатное КП обновило сумму до 133 285 ₽ и перевело сделку на стадию «Подготовка документов». Комментарий №31, PDF №93, задача №11. Скидка 35% направила внутренний проект РОП, комментарий №39, PDF №95, задача №13. После повтора и сверки для каждого сценария остались один комментарий, одно вложение и одна задача.</p>
+</section>
+<section id="roi">
+  <h2>Сценарный расчёт ROI</h2>
+  <p class="intro">Задайте объём, ставку и время проверки. Хронометраж менеджера в пилоте ещё предстоит. Начальные значения ползунков показывают сценарий.</p>
+  <div class="roi-grid">
+    <fieldset class="panel" id="roiInputs">
+      <legend>Параметры процесса</legend>
+      <div id="sliders"></div>
+      <details><summary>Инфраструктура, поддержка и внедрение</summary>
+        <div class="optional">
+          <label>Инфраструктура и поддержка, ₽/мес <input id="fixed" type="number" min="0" value="0"></label>
+          <label>Разовые затраты на внедрение, ₽ <input id="setup" type="number" min="0" value="0"></label>
+        </div>
+      </details>
+    </fieldset>
+    <div>
+      <div class="results" aria-live="polite">
+        <div>Экономия часов в месяц<output id="hours">—</output></div>
+        <div>Экономия ФОТ в месяц<output id="laborMonth">—</output></div>
+        <div>Экономия ФОТ в год<output id="laborYear">—</output></div>
+        <div>Затраты на токены в месяц<output id="tokensMonth">—</output></div>
+        <div>Чистый эффект в месяц<output id="netMonth">—</output></div>
+        <div>Чистый эффект в год<output id="netYear">—</output></div>
+        <div>ROI по текущим расходам<output id="roiPct">—</output></div>
+        <div>Срок окупаемости<output id="payback">—</output></div>
+      </div>
+      <p id="assumption" class="fine"></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">Кейс №3 · Коммерческие предложения и согласование маржи</div></footer>
+<script type="application/json" id="phase3Data">{"live":{"smart_model":"gpt-4o-mini","metrics":{"variant_a":{"cases":20,"financial_accuracy_pct":100.0,"director_accuracy_pct":100.0,"director_precision_pct":100.0,"director_recall_pct":100.0,"human_review_accuracy_pct":85.0,"numeric_guard_rejection_rate":30.0,"seeded_promise_recall_pct":null,"provocation_rejection_pct":50.0,"pains_coverage_pct":10.0,"objections_coverage_pct":7.5,"mean_latency_ms":2838.55,"tokens_in":5250,"tokens_out":3419,"cost_rub":"0.283890","saved_minutes":null},"variant_b":{"cases":20,"financial_accuracy_pct":100.0,"director_accuracy_pct":100.0,"director_precision_pct":100.0,"director_recall_pct":100.0,"human_review_accuracy_pct":65.0,"numeric_guard_rejection_rate":20.0,"seeded_promise_recall_pct":null,"provocation_rejection_pct":16.67,"pains_coverage_pct":25.0,"objections_coverage_pct":10.0,"mean_latency_ms":3912.45,"tokens_in":8610,"tokens_out":5556,"cost_rub":"0.462510","saved_minutes":null}},"cost_verified":{"variant_a":true,"variant_b":true}}}</script>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const evidence = JSON.parse($("phase3Data").textContent);
+const number = new Intl.NumberFormat("ru-RU", {maximumFractionDigits: 2});
+const rub = new Intl.NumberFormat("ru-RU", {style: "currency", currency: "RUB", maximumFractionDigits: 2});
+const percent = n => n === null ? "—" : number.format(n) + "%";
+const selected = evidence.live?.metrics?.variant_b;
+if (evidence.live) {
+  for (const [name, m] of Object.entries(evidence.live.metrics)) {
+    const row = $("benchmarkRows").insertRow();
+    const heading = document.createElement("th");
+    heading.scope = "row";
+    heading.textContent = "Live LLM · " + name.slice(-1).toUpperCase();
+    row.append(heading);
+    const rates = (...keys) => keys.map(key => percent(m[key])).join(" / ");
+    for (const value of [
+      m.cases, percent(m.financial_accuracy_pct),
+      rates("director_accuracy_pct", "director_precision_pct", "director_recall_pct"),
+      rates("numeric_guard_rejection_rate", "provocation_rejection_pct"),
+      rates("pains_coverage_pct", "objections_coverage_pct"),
+      number.format(m.mean_latency_ms),
+      number.format(m.tokens_in) + " / " + number.format(m.tokens_out), rub.format(m.cost_rub)
+    ]) row.insertCell().textContent = value;
+  }
+  $("liveNote").textContent = "Модель " + evidence.live.smart_model + ". Экономия времени в отчёте ожидает хронометража.";
+}
+
+const fields = [
+  ["volume", "КП в месяц", 1, 1000, 100, " КП"],
+  ["manual", "Ручная подготовка", 1, 180, 45, " мин"],
+  ["hourly", "Стоимость часа", 100, 10000, 1500, " ₽", 100],
+  ["share", "Доля сложных согласований", 0, 100, 20, "%"],
+  ["standardReview", "Штатная проверка", 0, 120, 5, " мин"],
+  ["complexReview", "Проверка при эскалации", 0, 120, 10, " мин"]
+];
+for (const [id, label, min, max, value, unit, step = 1] of fields) {
+  const block = document.createElement("div");
+  block.className = "slider";
+  block.innerHTML = '<label for="' + id + '">' + label + '<output id="' + id +
+    'Value" for="' + id + '"></output></label><input id="' + id +
+    '" type="range" min="' + min + '" max="' + max + '" step="' + step + '" value="' + value + '">';
+  $("sliders").append(block);
+}
+function update() {
+  const get = id => $(id).valueAsNumber;
+  const optional = id => Math.max(0, get(id) || 0);
+  for (const [id, , , , , unit] of fields) $(id + "Value").value = number.format(get(id)) + unit;
+  const show = (id, value, formatter) => { $(id).value = value === null ? "—" : formatter(value); };
+  const share = get("share") / 100;
+  const review = get("standardReview") * (1 - share) + get("complexReview") * share;
+  const cycle = (selected?.mean_latency_ms ?? 99.22) / 60000;
+  const hours = get("volume") * (get("manual") - review - cycle) / 60;
+  const labor = hours * get("hourly");
+  const tokenCost = selected && evidence.live.cost_verified?.variant_b
+    ? get("volume") * Number(selected.cost_rub) / selected.cases : null;
+  const recurring = tokenCost === null ? null : tokenCost + optional("fixed");
+  const net = recurring === null ? null : labor - recurring;
+  const setup = optional("setup");
+  show("hours", hours, number.format);
+  show("laborMonth", labor, rub.format);
+  show("laborYear", labor * 12, rub.format);
+  show("tokensMonth", tokenCost, rub.format);
+  show("netMonth", net, rub.format);
+  show("netYear", net === null ? null : net * 12, rub.format);
+  show("roiPct", recurring > 0 ? net / recurring * 100 : null, percent);
+  show("payback", setup > 0 && net > 0 ? setup / net : null, n => number.format(n) + " мес.");
+  $("assumption").textContent = tokenCost === null
+    ? "Для расчёта чистого эффекта нужна полная стоимость серии live B. Время цикла взято из " +
+      (selected ? "live B." : "HTTP-мока B.")
+    : "Время цикла и средняя стоимость токенов взяты из live B. Годовой чистый эффект рассчитан до вычета разовых затрат.";
+}
+$("roiInputs").addEventListener("input", update);
+update();
+</script>
+</body>
+</html>

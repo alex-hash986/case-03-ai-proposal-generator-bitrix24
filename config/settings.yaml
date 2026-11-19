@@ -1,0 +1,22 @@
+api_port: 8013
+ui_port: 8503
+database: data/case03_proposal.db
+artifacts: artifacts/proposals
+template: config/templates/kp_enterprise_v1.docx
+brand: Отдел коммерческих решений
+vat_pct: "22"
+ab_variant: variant_b
+max_cycle_cost_rub: "1.00"
+discount_matrix:
+  smb:
+    max_discount_pct: "8"
+    min_margin_pct: "24"
+  mid_market:
+    max_discount_pct: "12"
+    min_margin_pct: "21"
+  standard:
+    max_discount_pct: "10"
+    min_margin_pct: "20"
+  enterprise:
+    max_discount_pct: "15"
+    min_margin_pct: "18"

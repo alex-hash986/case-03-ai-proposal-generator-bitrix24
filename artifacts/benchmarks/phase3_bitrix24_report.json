@@ -1,0 +1,98 @@
+{
+  "status": "verified",
+  "bitrix_mode": "live",
+  "llm_mode": "live",
+  "stage": "PREPARATION",
+  "director_id": 1,
+  "director_id_source": "profile",
+  "cases": {
+    "standard": {
+      "idempotency_key": "phase3-bitrix24-7-standard",
+      "discount_pct": "5",
+      "cycle_id": "3b308f6f7138402b81f0845b4d5fcc9b",
+      "status": "completed",
+      "bitrix_sync_status": "completed",
+      "mode": "live",
+      "fallback_reason": null,
+      "cost_rub": "0.010965",
+      "tokens_in": 371,
+      "tokens_out": 90,
+      "latency_ms": 7017,
+      "docx_path": "artifacts/proposals/3b308f6f7138402b81f0845b4d5fcc9b/proposal.docx",
+      "pdf_path": "artifacts/proposals/3b308f6f7138402b81f0845b4d5fcc9b/proposal.pdf",
+      "total": "133285.00",
+      "comment_id": "31",
+      "file_id": "93",
+      "file_name": "proposal-7-2463947d9dd8f1d278c131bb.pdf",
+      "task_id": "11",
+      "task_responsible_id": "1",
+      "draft": false,
+      "repeat_and_reconcile_preserved_remote_ids": true,
+      "deal_after": {
+        "stage": "PREPARATION",
+        "amount": "133285.00"
+      },
+      "wal_steps": [
+        "deal",
+        "products",
+        "requisites",
+        "task",
+        "timeline",
+        "update_deal"
+      ],
+      "product_rows_read": 2,
+      "requisites_read": 0,
+      "thousands_separator_verified": true,
+      "pdf_internal_draft_verified": false
+    },
+    "director": {
+      "idempotency_key": "phase3-bitrix24-7-director",
+      "discount_pct": "35",
+      "cycle_id": "26407512e9cd464d9662397cded109c4",
+      "status": "requires_approval",
+      "bitrix_sync_status": "completed",
+      "mode": "live",
+      "fallback_reason": null,
+      "cost_rub": "0.010725",
+      "tokens_in": 371,
+      "tokens_out": 86,
+      "latency_ms": 7357,
+      "docx_path": "artifacts/proposals/26407512e9cd464d9662397cded109c4/proposal.docx",
+      "pdf_path": "artifacts/proposals/26407512e9cd464d9662397cded109c4/proposal.pdf",
+      "total": "91195.00",
+      "comment_id": "39",
+      "file_id": "95",
+      "file_name": "proposal-7-698bdad01e669a3eb694c37e.pdf",
+      "task_id": "13",
+      "task_responsible_id": "1",
+      "draft": true,
+      "repeat_and_reconcile_preserved_remote_ids": true,
+      "deal_after": {
+        "stage": "PREPARATION",
+        "amount": "133285.00"
+      },
+      "wal_steps": [
+        "deal",
+        "products",
+        "requisites",
+        "task",
+        "timeline"
+      ],
+      "product_rows_read": 2,
+      "requisites_read": 0,
+      "thousands_separator_verified": true,
+      "pdf_internal_draft_verified": true
+    }
+  },
+  "company_id": 1,
+  "contact_id": 1,
+  "deal_id": 7,
+  "before": {
+    "stage": "NEW",
+    "amount": "115000.00"
+  },
+  "crm_fixture_notes": "Synthetic contact and company bound to the deal. Requisite endpoint returned an empty list.",
+  "verification": "Live Bitrix24 REST readbacks and SQLite WAL. Two generation requests per idempotency key and one reconcile request.",
+  "stage_label": "Подготовка документов",
+  "date": "2026-11-20"
+}
